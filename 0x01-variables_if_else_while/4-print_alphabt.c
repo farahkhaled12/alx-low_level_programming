@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* main - Prints the alphabet.
+* main - Prints the alphabet without e and q.
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-char alp[26] = "abcdfghijklmnoprstuvwxyz";
+char alp[24] = "abcdfghijklmnoprstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
