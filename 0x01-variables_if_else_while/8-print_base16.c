@@ -12,8 +12,7 @@ for (i = 48; i < 58; i++)
 {
 putchar( i);
 }
-char alp[6] = "abcdef";
-for (i = 0; i < 6; i++)
+for (i = 97; i < 103; i++)
 {
 putchar(alp[i]);
 }
